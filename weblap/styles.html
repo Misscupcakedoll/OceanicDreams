@@ -1,0 +1,104 @@
+    <!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oceanic Dreams Yacht Bérlés</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --main-green: rgb(114, 221, 120);
+        }
+        
+        .navbar-custom {
+    background-color: #000 !important;
+    .navbar-custom .navbar-toggler-icon {
+    color: rgb(114, 221, 120) !important; 
+        }
+
+        .hero-section {
+            padding: 100px 0;
+            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('PerfectBoat1.jpg');
+            background-size: cover;
+        }
+
+        .img-fluid-custom {
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .btn-custom {
+            background-color: var(--main-green);
+            border: none;
+            padding: 12px 30px;
+        }
+
+        @media (max-width: 768px) {
+            .content-reverse {
+                flex-direction: column-reverse;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white fw-bold" href="#">Oceanic Dreams</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Yacht Charter</a></li>
+                  
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 mb-4">The Best
+Private Yacht Experience, Luxury on the Sea.
+Oceanic Dream</h1>
+            <p class="lead mb-4">Oceanic Dreams brings you the magic of the luxury yacht experience! We all know the chaos that comes with crowded beachfront hotels and the hassle of planning vacations – endless hours spent on bookings, transfers, and packed beaches. Why not choose complete freedom and comfort instead? Enjoy a private yacht with your family, friends, or business partners – the true meaning of carefree relaxation.</p></p>
+           
+        </div>
+    </header>
+
+   
+    <main class="container my-5">
+        <section class="row g-5 mb-5 align-items-center">
+            <div class="col-md-6">
+                <img src="PerfectBoat1.jpg" class="img-fluid img-fluid-custom" alt="Yacht 1">
+            </div>
+            <div class="col-md-6">
+                <h2>
+About Us</h2>
+                <p>Oceanic Dreams – Redefining Luxury Yacht Rentals
+Oceanic Dreams embodies luxury and freedom at sea. Our fleet consists of meticulously selected, world-class yachts, offering the perfect setting for family vacations, romantic getaways, or exclusive business events. Whether you're escaping for a single day or several weeks, you’ll find the ideal yacht with us – complete with personalized services, professional crew, and premium amenities. Experience unlimited freedom and the highest level of comfort with Oceanic Dreams.
+            </div>
+        </section>
+
+        <section class="row g-5 mb-5 align-items-center content-reverse">
+            <div class="col-md-6">
+                <h2>
+Yachts</h2>
+                <p>[The World's Finest Yachts for Your Perfect Experiences
+Our fleet offers the perfect blend of modern luxury and timeless elegance. Whether you're looking for lavish motor yachts, classic sailing yachts, or magnificent superyachts – we have a wide selection to meet every need. Our yachts feature the latest technology, stunning spacious cabins, wellness areas, watersports equipment, and top-notch culinary services. Let our expert team help you choose the perfect yacht to ensure your journey is truly unforgettable!]</p>
+            </div>
+            <div class="col-md-6">
+                <img src="PerfectBoat2.jpg" class="img-fluid img-fluid-custom" alt="Yacht 2">
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
